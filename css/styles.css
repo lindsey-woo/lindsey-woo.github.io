@@ -32,6 +32,10 @@ h1 {
 	padding-top: 25px;
 }
 
+h5 {
+	color: #ccc;
+}
+
 a {
   color: #ccc;
   text-decoration: none;
