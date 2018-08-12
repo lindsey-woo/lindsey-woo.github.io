@@ -11,21 +11,21 @@
 </div>
     <div class="tab_container">
       <input id="tab1" type="radio" name="tabs" checked>
-      <label for="tab1"><i class="fa fa-code"></i><span>Code</span></label>
+      <label for="tab1"><i class="fa fa-pencil-square-o"></i><span>About</span></label>
 
       <input id="tab2" type="radio" name="tabs">
-      <label for="tab2"><i class="fa fa-pencil-square-o"></i><span>About</span></label>
+      <label for="tab2"><i class="fa fa-folder-open-o"></i><span>Projects</span></label>
 
       <input id="tab3" type="radio" name="tabs">
-      <label for="tab3"><i class="fa fa-folder-open-o"></i><span>Projects</span></label>
+      <label for="tab3"><i class="fa fa-cut"></i><span>Crochet</span></label>
 
       <input id="tab4" type="radio" name="tabs">
-      <label for="tab4"><i class="fa fa-bar-chart-o"></i><span>Crochet</span></label>
+      <label for="tab4"><i class="fa fa-bar-chart-o"></i><span>Activities</span></label>
 
       <input id="tab5" type="radio" name="tabs">
-      <label for="tab5"><i class="fa fa-envelope-o"></i><span>Activities</span></label>
+      <label for="tab5"><i class="fa fa-file-o"></i><span>Resume</span></label>
 
-      <section id="content1" class="tab-content">
+<!--       <section id="content1" class="tab-content">
         <h3>Headline 1</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -38,33 +38,43 @@
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur.</p>
-      </section>
+      </section> -->
 
-      <section id="content2" class="tab-content">
+      <section id="content1" class="tab-content">
         <h3>About Me</h3>
             <center>
-            <img src="img/me2.JPG" width="600" height="400">
+            <div class="img">
+             <!-- width="600" height="400" -->
+              <!-- <img src="img/me2.JPG"> -->
+              <p style="float: center; font-size: 12pt; text-align: center; width: 75%; margin-right: 2%; margin-bottom: 0.5em;"><img src="img/me2.jpg" style="width: 100%"></p>
+            </div>
             <p>My name is Lindsey Woo and I am currently a senior studying Electrical and Computer Engineering at Northeastern University.</p>
             <p>Looking to progress into the field of hardware and dynamic robotics, I am eager to learn more about control systems, sensors, and signal processing.</p>
             <p>Outside the classroom, my hobbies range from hiking and biking to baking and crocheting to playing piano and League of Legends.  
             </center>
       </section>
 
-      <section id="content3" class="tab-content">
+      <section id="content2" class="tab-content">
         <h3>Projects</h3>
           <!-- width="325" height="220" -->
-              <img src="img/spaghetti.jpg" style="float: left; height: 20em; width: 30em; margin-right: 1%; margin-bottom: 0.5em;">
+          <div class="animation">
+            <img src="img/spaghetti.jpg" style="float: left; height: 20em; width: 30em; margin-right: 1%; margin-bottom: 0.5em;">
+          <!-- </div> -->
 <!-- width="320" height="240" -->
 <!--               <video  style="float: left; height: 20em; width: 10em; margin-right: 1%; margin-bottom: 0.5em;" controls>
                 <source src="img/ctouch.mp4" type = "video/mp4">
                 Your browswer doesn't support video tag.
               </video> -->
 <!-- width="300" height="275" -->
-              <img src="img/cboard.jpg" style="float: right; height: 20em; width: 18em; margin-right: 1%; margin-bottom: 0.5em;" >
+          <!-- <div class="animation"> -->
+            <img src="img/cboard.jpg" style="float: right; height: 20em; width: 18em; margin-right: 1%; margin-bottom: 0.5em;" >
               <p style="clear: both;">
-          <center>
-          <h4>Capacitive Touch Board</h4>
-          </center>
+          </div>
+          <div class="animation">
+            <center>
+              <h4>Capacitive Touch Board</h4>
+            </center>
+          </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -80,33 +90,38 @@
           <source src="img/wiimote.mp4" type = "video/mp4">
           Your browswer doesn't support video tag.
           </video> -->
-          <center>
-          <h4>Robotic Arm</h4>
-          </center>
+          <div class="animation">
+            <center>
+              <h4>Robotic Arm</h4>
+            </center>
+          </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          <img src="img/mfj.jpg" style="float: left; height: 18em; width: 24em; margin-right: 1%; margin-bottom: 0.5em;">
-          <img src="img/sin.jpg" style="float: right; height: 18em; width: 24em; margin-right: 1%; margin-bottom: 0.5em;">
-          <p style="clear: both;">
-          <center>
-            <h4>MFJ Cub Transciever</h4>
-          </center>
+          <div class="animation">
+            <img src="img/mfj.jpg" style="float: left; height: 18em; width: 24em; margin-right: 1%; margin-bottom: 0.5em;">
+            <img src="img/sin.jpg" style="float: right; height: 18em; width: 24em; margin-right: 1%; margin-bottom: 0.5em;">
+            <p style="clear: both;">
+          </div>
+          <div class="animation">
+            <center>
+              <h4>MFJ Cub Transciever</h4>
+            </center>
+          </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+        <!-- </div> -->
 
       </section>
 
-      <section id="content4" class="tab-content">
+      <section id="content3" class="tab-content">
         <h3>Crochet</h3>
   <!--           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -135,8 +150,9 @@
             
       </section>
 
-      <section id="content5" class="tab-content">
+      <section id="content4" class="tab-content">
         <h3>Activities</h3>
+          <div class="animation">
             <ul style="list-style-type:circle">
               <li>Eta Kappa Nu (HKN) 2016-2018</li>
                 <ul>
@@ -147,7 +163,7 @@
                 <ul>
                   <li>Choreographer 2017-2018</li>
                 </ul>
-              <li>Society of Asian Scientist and Engineers (SASE) 2014-2018</li>
+              <li>Society of Asian Scientists and Engineers (SASE) 2014-2018</li>
                 <ul>
                   <li>Upperclassman Representative 2016-2017</li>
                 </ul>
@@ -156,10 +172,19 @@
                   <li>Instructor 2015</li>
                 </ul>
             </ul>
+          </div>
+      </section>
+
+      <section id="content5" class="tab-content">
+        <h3>Resume</h3>
+        <div class="animation">
             <center>
               <object data="img/resume.pdf" type="application/pdf" width= "750" height="1050">
               </object>
+            </center>
+        </div>
       </section>
+
     </div>
 
 <!-- <p class="no_wrap">
