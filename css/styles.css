@@ -36,6 +36,8 @@ h5 {
 	color: #ccc;
 }
 
+
+
 a {
   color: #ccc;
   text-decoration: none;
@@ -54,6 +56,8 @@ header {
 	padding-top: 70px;
 	position: relative;
 }
+
+
 
 input, section {
   clear: both;
@@ -81,6 +85,11 @@ label {
   background: #f0f0f0;*/
 }
 
+img {
+	width: 75%;
+	height: auto;
+}
+
 #tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3,
@@ -96,6 +105,11 @@ label {
 /*  border-bottom: 2px solid #f0f0f0;*/
 }
 
+.animation {
+webkit-animation: fadeInScale 0.7s ease-in-out;
+  -moz-animation: fadeInScale 0.7s ease-in-out;
+  animation: fadeInScale 0.7s ease-in-out;
+}
 .tab_container .tab-content p,
 .tab_container .tab-content h3 {
   -webkit-animation: fadeInScale 0.7s ease-in-out;
