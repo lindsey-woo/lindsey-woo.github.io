@@ -36,7 +36,9 @@ h4.name {
 	color: #ccc;
 }
 
-
+h4.space {
+	padding-top:20px;
+}
 
 a {
   color: #ccc;
