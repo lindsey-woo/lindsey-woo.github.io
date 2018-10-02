@@ -87,10 +87,21 @@ label {
   background: #f0f0f0;*/
 }
 
-img {
+/*img {
 	width: 75%;
 	height: auto;
+}*/
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
 }
+
+.column {
+	flex: 50%;
+	max-height: 2%;
+}
+
 
 #tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
@@ -131,6 +142,25 @@ webkit-animation: fadeInScale 0.7s ease-in-out;
 .tab_container [id^="tab"]:checked + label .fa {
   /*color: #0CE;*/
 
+}
+
+/*.resp-continer {
+	position: left;
+}*/
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	display: block
+}
+
+.resp-iframe {
+	position: left;
+	top: 1%;
+	left: 1%;
+	width: 70%;
+	height: 100%;
+	border: 2px;
 }
 
 label .fa {
