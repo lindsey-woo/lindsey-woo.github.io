@@ -19,7 +19,7 @@
 }
 
 body {
-  background: url(../img/use_your_illusion.png);/*url(https://subtlepatterns.com/patterns/use_your_illusion.png);*/
+  background: url(/img/use_your_illusion.png);/*url(https://subtlepatterns.com/patterns/use_your_illusion.png);*/
   color: #eee;
   font: 1em 'PT Sans', sans-serif;
 /*	font-family: sans-serif;
@@ -112,7 +112,7 @@ label {
   padding: 20px;
 /*  background: #fff;
   color: #999;*/
-    background: url(../img/use_your_illusion.png);/*url(https://subtlepatterns.com/patterns/use_your_illusion.png);*/
+    background: url(/img/use_your_illusion.png);/*url(https://subtlepatterns.com/patterns/use_your_illusion.png);*/
   color: #eee;
   border: 2px solid #4EC6DE;
 /*  border-bottom: 2px solid #f0f0f0;*/
